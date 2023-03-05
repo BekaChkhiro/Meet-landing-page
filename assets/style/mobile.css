@@ -1,0 +1,263 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    overflow-x: hidden;
+}
+
+/* header */
+
+.header-div {
+    padding: 48px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* group chat */
+
+
+/* chat images */
+
+.chat-images {
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-images img {
+    width: 414px;
+    height: 153px;
+}
+/* chat text */
+
+.chat-text {
+    padding: 48px 24px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-text h2 {
+    color: #28283D;
+    width: 327px;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.chat-text p {
+    color: #87879D;
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.download-div {
+    flex-direction: column;
+    align-items: center;
+    width: 193px;
+}
+
+.download {
+    padding: 16px 40px 16px;
+    background-color: #4D96A9;
+    width: 193px;
+    border: none;
+    border-radius: 29px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.v1-3 {
+    margin-left: 4px;
+    color: #8FE3F9;
+}
+
+.what-is-it {
+    width: 139px;
+    padding: 16px 25px;
+    margin: 0px 27px;
+    background-color: #855FB1;
+    border: none;
+    border-radius: 29px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* 01 */
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first hr {
+    height: 84px;
+    color: rgba(135, 135, 157, 0.25);
+    margin-bottom: -1px;
+}
+
+.first span {
+    background-color: #FAFAFA;
+    padding: 15px 19px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    color: #87879D;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+/* image box */
+
+.image-box {
+    padding: 64px 24px;
+    width: 327px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px auto;
+    gap: 24px 25px;
+}
+
+.image-box-item {
+    width: 151px;
+    height: 143px;
+    border-radius: 8px;
+}
+
+/* built */
+
+.built {
+    padding: 0px 24px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.built h3 {
+    color: #4D96A9;
+    width: 271px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.built h2 {
+    color: #28283D;
+    width: 327px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.built p {
+    color: #87879D;
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* second */
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -28px;
+}
+
+.second hr {
+    height: 84px;
+    color: rgba(135, 135, 157, 0.25);
+    margin-bottom: -1px;
+}
+
+.second span {
+    background-color: #FAFAFA;
+    padding: 15px 19px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    color: #87879D;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+/* footer */
+
+footer {
+    background:  url(/assets/mobile/image-footer.jpg) no-repeat;
+    background-size: cover;
+}
+
+.footer-div {
+    height: 100%;
+    padding: 92px 24px 64px;
+    background-color:  rgba(77, 150, 169, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-div h2 {
+    color: #FAFAFA;
+    width: 327px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer-div p {
+    color: #FAFAFA;
+    width: 327px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.footer-button {
+    display: flex;
+    padding: 16px 40px 16px;
+    background-color: rgba(133, 95, 177, 1);
+    width: 193px;
+    border: none;
+    border-radius: 29px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+.v1-3-footer {
+    margin-left: 4px;
+    color: rgba(217, 184, 255, 1);
+}
+
+@media screen and (max-width: 1439px) {
+    .chat-images-1, .chat-images-2 {
+        display: none;
+    }
+}
+

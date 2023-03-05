@@ -1,0 +1,95 @@
+@media screen and (min-width: 1440px) {
+    
+    /* group chat */
+
+    .group-chat {
+        display: flex;
+        justify-content: center;
+        gap: 88px;
+        margin-top: 63px;
+    }
+
+    /* chat images */
+
+    .chat-images {
+        display: none
+    }
+
+
+    /* chat text */
+
+    .chat-text {
+        width: 540px;
+        padding: 47px 0px 117px;
+    }
+
+    .chat-text h2 {
+        width: 445px;
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 34px;
+    }
+
+    .chat-text p {
+        width: 540px;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 32px;
+    }
+
+    /* image box */
+
+    .image-box {
+        width: 1110px;
+        gap: 30px;
+        padding: 64px 0px 80px;
+    }
+
+    .image-box-item {
+        width: 255px;
+        height: 242px;
+    }
+
+    /* built */
+
+    .built {
+        padding-bottom: 72px;
+    }
+
+    .built p {
+        width: 540px;
+    }
+
+    /* footer */
+
+    footer {
+        background: url(../desktop/image-footer.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer-div {
+        padding: 116px 165px 114px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-div h2 {
+        text-align: start;
+        margin-bottom: 0px;
+        margin-right: 125px;
+        width: 350px;
+    }
+
+    .footer-div p {
+        text-align: start;
+        margin-bottom: 0px;
+        width: 350px;
+        margin-right: 92px;
+    }
+
+    .footer-button:hover {
+        background-color: rgba(177, 139, 221, 1);
+        cursor: pointer;
+    }
+}
